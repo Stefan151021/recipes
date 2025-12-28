@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: #101111;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fotka {
+    border-radius: 30px 30px 0 0;
+    padding: 5px;
+    width: 350px;
+}
+
+.herowrapper{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+
+.heroheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: #6CCF20;
+    background: linear-gradient(to right, #6CCF20 0%, #CFC250 59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0;
+    line-height: 0.4;
+}
+.subheader{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.fotka:hover{
+    opacity: 0.7;
+}
+
+.fotkaconatiner{
+    display: flex;
+    flex-direction:row;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    border-radius: 30px;
+    margin-right: 25px;
+    background-color: #242727;
+    width: 360px;
+
+}
+
+.content{
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0;
+    color: white;
+}
+
+
+.btns{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+.time{
+    background-color: #592014;
+    border: 0;
+    padding: 5px 20px; /* top/bottom = 0, left/right = 20px */
+    font-size: 14px;
+    color: white;
+    border-radius: 30px;
+
+
+}
+.callories{
+    background-color: #142B59;
+    border: 0;
+    padding: 5px 20px; /* top/bottom = 0, left/right = 20px */
+    font-size: 14px;
+    color: white;
+    border-radius: 30px;
+}
+.type{
+    background-color: #145942;
+    border: 0;
+    padding: 5px 20px; /* top/bottom = 0, left/right = 20px */
+    font-size: 14px;
+    color: white;
+    border-radius: 30px;
+
+}
